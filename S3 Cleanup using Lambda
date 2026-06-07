@@ -3,7 +3,7 @@ from datetime import datetime, timezone, timedelta
 
 s3 = boto3.client('s3')
 
-BUCKET_NAME = "aws-cleanup-demo-bucket"
+BUCKET_NAME = "aws-cleanup-demo-rahat"
 
 def lambda_handler(event, context):
 
